@@ -31,7 +31,7 @@ public class EmpController {
 	
 	@GetMapping("/test")
 	public String testing() {
-		return "Test method executed";
+		return "Test method executed ";
 	}
 
 	@PostMapping("/process")
